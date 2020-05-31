@@ -3,7 +3,7 @@
 #include  <fstream>
 #include  <locale>
 #include  <cstdlib>
-
+#include <time.h>
 BST<std::string> makeTree(char* filename)
 {
 std::string word;
